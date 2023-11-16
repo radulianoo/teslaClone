@@ -1,0 +1,69 @@
+:root {
+    --white-color: #fff;
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body .temporary-item {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+body .temporary-item .commercial-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+body .navigation {
+    display: flex;
+}
+
+body .navigation .navigation-items {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+body .navigation .navigation-items .middle-buttons {
+    display: flex;
+}
+
+body .navigation .navigation-items .middle-buttons ol {
+    display: flex;
+    gap: 12px;
+}
+
+body .navigation .navigation-items .end-buttons {
+    display: flex;
+}
+
+body .navigation .navigation-items .end-buttons ol {
+    display: flex;
+    gap: 12px;
+}
+
+/* body .navigation .navigation-items .middle-buttons {
+    list-style:  none;
+}
+
+body .navigation .navigation-items .end-buttons {
+    list-style: none;
+} */
+
+body .navigation .navigation-items ol {
+    list-style: none;
+}
+
+body .navigation .navigation-items .tesla-logo {
+    width: 120px; 
+}
