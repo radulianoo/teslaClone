@@ -1,6 +1,6 @@
 :root {
     --white-color: #fff;
-
+    --text-color: #171a20;
 }
 * {
     padding: 0;
@@ -8,12 +8,33 @@
     box-sizing: content-box;
 }
 
+body {
+    background: url(https://electrek.co/wp-content/uploads/sites/3/2023/08/updated-tesla-model-3-1-e1693528447192.jpg?quality=82&strip=all&w=1600);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 body .temporary-item {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 24px;
     flex-wrap: wrap;
+    background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%,rgba(108,148,255,.92) 0,rgba(0,0,0,.92) 100%);
+    color: var(--white-color);
+    font-size: 18px;
+    height: 53px;
+    
 }
+
+body .temporary-item .cta-message {
+    font-weight: bold;
+}
+
+body .temporary-item .commercial-items .test-drive-item {
+    padding-left: 8px;
+    color: var(--white-color);
+} 
 
 body .temporary-item .commercial-items {
     display: flex;
@@ -36,6 +57,8 @@ body .navigation .navigation-items {
 
 body .navigation .navigation-items .middle-buttons {
     display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 body .navigation .navigation-items .middle-buttons ol {
@@ -65,5 +88,5 @@ body .navigation .navigation-items ol {
 }
 
 body .navigation .navigation-items .tesla-logo {
-    width: 120px; 
+    width: 120px;
 }
