@@ -66,6 +66,12 @@ body .navigation .navigation-items .middle-buttons ol {
     gap: 12px;
 }
 
+body .navigation .navigation-items .middle-buttons ol li .button {
+    margin: 8px;
+    min-width: 63px;
+    height: 20px;
+}
+
 body .navigation .navigation-items .end-buttons {
     display: flex;
 }
